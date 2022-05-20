@@ -1,0 +1,159 @@
+html {
+  background: rgb(0,15,113);
+  background: linear-gradient(180deg, rgba(0,15,113,0.9429972672662815) 0%, rgba(11,13,172,1) 100%); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+  font-family: 'Playfair Display', serif, sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  background: rgb(0,15,113);
+  /* background: linear-gradient(180deg, rgba(0,15,113,0.9429972672662815) 0%, rgba(11,13,172,1) 100%);  */
+  color: lightgray;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.75rem;
+  color:whitesmoke
+}
+header {
+  text-align: left;
+  width: 100%;
+  background: #03045e;
+  color: white;
+  display: flexbox;
+  
+}
+
+/*Defines the format for everything in the header. */
+header h1 {
+  font-size: 2rem;
+  display: inline-flex;
+}
+
+
+/*Defines the font, margins, padding, float and font size for everything in the nav section.*/
+nav {
+  display: inline-flexbox;
+  float: right;
+  color: white;
+  width: fit-content;
+  font-size: 2rem;
+}
+
+nav a {
+  display: inline-flexbox;
+  padding: 2rem;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+
+nav a:hover {
+  color: darkblue;
+} 
+
+.parent-image{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+
+.child-image{
+  /* position: relative; */
+  width: 10rem;
+  height: auto;
+  border-radius: 2rem;
+  /* z-index: 2;
+  bottom: 30%;
+  left: 0; */
+}
+
+.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.centered:hover {
+  opacity: 0.3;
+}
+
+/*for the secondary projects section*/
+.subprojects{
+  width: auto;
+  flex-direction: column; 
+}
+
+/*for the secondary project images and links*/
+.secondprojects {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 85%;
+}
+
+.secondprojects:hover {
+  opacity: 0.3;
+}
+
+.link {
+  
+}
+
+.italics {
+  font-style: italic;
+}
+
+
+.row {
+  max-width: 100%;
+}
+
+/*improved centering */
+.title {
+  width: 20%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+}
+
+.content {
+  border-bottom: .25rem solid white;
+}
+
+.content ul {
+  list-style-type: none;
+  display: flex;
+}
+
+/*sets the list as inline instead of vertical*/
+.content ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a{
+  color: white;
+}
+
+a[href$='.docx']::after{
+  content: "📑";
+  display: inline-block;
+  margin-left: 5px;
+}
