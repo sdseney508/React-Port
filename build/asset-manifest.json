@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-port/static/css/main.f725e83d.css",
+    "main.js": "/react-port/static/js/main.52435901.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-port/static/js/787.a2cb61a6.chunk.js",
+    "static/media/trail-finder.jpg": "/react-port/static/media/trail-finder.f3cf02354cce9ddd9d19.jpg",
+    "static/media/pokedex.png": "/react-port/static/media/pokedex.6405f2db28f4dbbc5521.png",
+    "static/media/P-8A-drops-Mk54-torpedo-1.jpg": "/react-port/static/media/P-8A-drops-Mk54-torpedo-1.286bfcd6045d4958a987.jpg",
+    "static/media/Steven_Seney_Resume.doc": "/react-port/static/media/Steven_Seney_Resume.2dfc4184bc9a4f0d86ec.doc",
+    "static/media/avatar.jpg": "/react-port/static/media/avatar.cd116d6ba45d0c91df65.jpg",
+    "index.html": "/react-port/index.html",
+    "main.f725e83d.css.map": "/react-port/static/css/main.f725e83d.css.map",
+    "main.52435901.js.map": "/react-port/static/js/main.52435901.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-port/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f725e83d.css",
+    "static/js/main.52435901.js"
+  ]
+}
