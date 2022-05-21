@@ -1,23 +1,56 @@
 import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import { Container, Row, Col } from 'react-bootstrap';
+import { IoHomeOutline } from 'react-icons/io5';
+import { IoAccessibilityOutline } from 'react-icons/io5';
+import { BsFolder } from 'react-icons/bs';
+import { FcDocument } from 'react-icons/fc';
+import { FaEnvelope } from 'react-icons/fa';
+
 import { Link } from 'react-router-dom';
 
 function Header(props) {
   return (
-    <header className="container d-flex flex-row">
-      <div className="flex-column">
-        <h2 className='centered'>Steve's React Portfolio</h2>
-        <nav>
-				<Link to={"/"} className="col-sm-12 col-md-5 col-lg-2">About Me</Link>
+    <Container fluid>
+      <Navbar className="pb-3">
+        <Nav className="justify-space-around">
+          <Row>
+            <Col>
+              <Link to={'/'} className="">
+                <IoHomeOutline className="link-icon" />
+                <span className="link-text"> Home </span>
+              </Link>
+            </Col>
 
-				<Link to={"/portfolio"} className="col-sm-12 col-md-5 col-lg-2">Porfoliol</Link>
-
-				<Link to={"/resume"} className="col-sm-12 col-md-5 col-lg-2">Resume</Link>
-
-				<Link to={"/contact"} className="col-sm-12 col-md-5 col-lg-2">Contact</Link>
-
-        </nav>
-      </div>
-    </header>
+            <Col>
+              <Link to={'/about'} className="">
+                <IoAccessibilityOutline className="link-icon" />
+                <span className="link-text"> About </span>
+              </Link>
+            </Col>
+            <Col>
+              <Link to={'/portfolio'} className="">
+                <BsFolder className="link-icon" />
+                <span className="link-text"> Portfolio </span>
+              </Link>
+            </Col>
+            <Col>
+              <Link to={'/resume'} className="">
+                <FcDocument className="link-icon" />
+                <span className="link-text"> Resume </span>
+              </Link>
+            </Col>
+            <Col>
+              <Link to={'/contact'} className="">
+                <FaEnvelope className="link-icon" />
+                <span className="link-text"> Contact </span>
+              </Link>
+            </Col>
+          </Row>
+        </Nav>
+      </Navbar>
+    </Container>
   );
 }
 

@@ -6,20 +6,22 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Home from './components/Home';
 
 function App() {
   return (
     <div>
-        <Router>
+      <Router>
           <Header />
-          <Routes>
-            <Route path="/" element={<AboutMe />} />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </Router>
-        <Footer />
+        </Routes>
+      </Router>
+      <Footer />
     </div>
   );
 }
