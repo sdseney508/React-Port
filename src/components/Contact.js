@@ -58,12 +58,13 @@ const Contact = () => {
               className="btn btn-primary bg-info rounded border-info ml-1 mt-3 mb-3"
               type="submit"
               id="email-button"
-              >
+            >
               Send Email
             </button>
           </form>
-        </div>
-        <div className="col-4 p-0">
+        </Col>
+
+        <Col>
           <h3>Links:</h3>
           <a href="https://github.com/a-donati" target="_blank">
             <i className="fab fa-github fa-2x m-2"></i>GitHub
@@ -77,10 +78,9 @@ const Contact = () => {
             <i className="fas fa-envelope fa-2x m-2"></i>
             Email
           </a>
-        </div>
-      </div>
-      </Col>
-      </Row>>
+        </Col>
+      </Row>
+
     </section>
   );
 };
