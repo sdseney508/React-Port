@@ -8,17 +8,19 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Home from './components/Home';
 
+const prefixs = "https://sdseney508.github.io/React-Port";
+
 function App() {
   return (
     <div>
       <Router>
           <Header />
         <Routes>
-            <Route path="https://sdseney508.github.io/React-Port/" element={<Home />} />
-            <Route path="https://sdseney508.github.io/React-Port/about" element={<AboutMe />} />
-            <Route path="https://sdseney508.github.io/React-Port/portfolio" element={<Portfolio />} />
-            <Route path="https://sdseney508.github.io/React-Port/resume" element={<Resume />} />
-            <Route path="https://sdseney508.github.io/React-Port/contact" element={<Contact />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
       <Footer />
