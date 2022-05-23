@@ -1,5 +1,5 @@
 {
-  "name": "react-portfolio",
+  "name": "react-port",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sdseney508.github.io/react-port",
@@ -36,12 +36,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+
   "browserslist": {
     "production": [
       ">0.2%",
