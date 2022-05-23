@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-port/static/css/main.f725e83d.css",
-    "main.js": "/react-port/static/js/main.26bd91a2.js",
+    "main.js": "/react-port/static/js/main.75f2a39d.js",
     "static/js/787.510e8dec.chunk.js": "/react-port/static/js/787.510e8dec.chunk.js",
     "static/media/trail-finder.jpg": "/react-port/static/media/trail-finder.f3cf02354cce9ddd9d19.jpg",
     "static/media/pokedex.png": "/react-port/static/media/pokedex.6405f2db28f4dbbc5521.png",
@@ -10,11 +10,11 @@
     "static/media/avatar.jpg": "/react-port/static/media/avatar.cd116d6ba45d0c91df65.jpg",
     "index.html": "/react-port/index.html",
     "main.f725e83d.css.map": "/react-port/static/css/main.f725e83d.css.map",
-    "main.26bd91a2.js.map": "/react-port/static/js/main.26bd91a2.js.map",
+    "main.75f2a39d.js.map": "/react-port/static/js/main.75f2a39d.js.map",
     "787.510e8dec.chunk.js.map": "/react-port/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f725e83d.css",
-    "static/js/main.26bd91a2.js"
+    "static/js/main.75f2a39d.js"
   ]
 }
