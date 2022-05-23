@@ -13,7 +13,7 @@ const Contact = () => {
     } else {
       //   TODO: set timeout
       document.getElementById('contact-warning').classList.add('d-none');
-      const url = `mailto:angeladonati93@gmail.com?subject=${formData.subject}&body=${formData.message}`;
+      const url = `mailto:sdseney508@gmail.com?subject=${formData.subject}&body=${formData.message}`;
       window.open(url);
     }
   };
@@ -21,8 +21,8 @@ const Contact = () => {
     <section>
       <Row>
         <Col>
-          <form className="ml-1" id="contact-form" onSubmit={handleSubmit}>
-            <h3 className="title">Contact Form:</h3>
+          <form className="" id="contact-form" onSubmit={handleSubmit}>
+            <h3 className="">Contact Form:</h3>
             <div className="form-group">
               <label htmlFor="subject-input">Subject</label>
               <input
@@ -51,7 +51,7 @@ const Contact = () => {
                 }}
               ></textarea>
             </div>
-            <p className="d-none ml-1" id="contact-warning">
+            <p className="" id="contact-warning">
               Both fields must be entered before pressing submit
             </p>
             <button
@@ -66,18 +66,17 @@ const Contact = () => {
 
         <Col>
           <h3>Links:</h3>
-          <a href="https://github.com/a-donati" target="_blank">
-            <i className="fab fa-github fa-2x m-2"></i>GitHub
-          </a>
+          <a href="https://github.com/sdseney508" className="icon m-5" alt="Github">
+              <FontAwesomeIcon icon={faGithub} />Github
+            </a>
           <br />
-          <a href="https://www.linkedin.com/in/angeladonati" target="_blank">
-            <i className="fab fa-linkedin fa-2x m-2"></i>LinkedIn
-          </a>
+          <a href="https://www.linkedin.com/in/stevenseney/" className="icon m-5" alt="Linkedin">
+              <FontAwesomeIcon icon={faLinkedin} />Linkedin
+            </a>
           <br />
-          <a href="mailto:angeladonati93@gmail.com" target="_blank">
-            <i className="fas fa-envelope fa-2x m-2"></i>
-            Email
-          </a>
+          <a href="https://stackoverflow.com/users/18003160/homeschool" alt="Stack Overflow" className="m-5">
+              <ImStackoverflow  />Stack Overflow
+            </a>
         </Col>
       </Row>
 
