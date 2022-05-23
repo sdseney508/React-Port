@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import ProjectCards from "./projectCards";
 import pokedex from "../assets/images/pokedex.png";
 import trailFinder from "../assets/images/trail-finder.jpg";
-import weather from "../assets/images/trail-finder.jpg";
+import weather from "../assets/images/weather.png";
 
 
 function Portfolio() {
@@ -31,6 +31,7 @@ function Portfolio() {
               title="Trail Finder"
               description="A cool app that helps hikers and bikers find trails in their local areas.  It also gives them a 5 day weather forecast and displays what stars will be in the sky in an intuitive star chart."
               link="https://sdseney508.github.io/Trail-Finder/"
+              repo='https://github.com/sdseney508/Trail-Finder'
             />
           </Col>
 
@@ -40,6 +41,7 @@ function Portfolio() {
               title="Weather"
               description="A weather API for cities of interest of the user.  Displays the current temperature, forecast hi and low temps for the 5 days forecast, UV index (helps to plan outdoors activities), wind forecast, and weather conditions."
               link="https://sdseney508.github.io/Weather-Dashboard/"
+              repo='https://github.com/sdseney508/Weather-Dashboard'
             />
           </Col>
         </Row>

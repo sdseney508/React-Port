@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Port/static/css/main.f725e83d.css",
-    "main.js": "/React-Port/static/js/main.8f6d5bc8.js",
+    "main.css": "/React-Port/static/css/main.32ac82c3.css",
+    "main.js": "/React-Port/static/js/main.ab9f713a.js",
     "static/js/787.510e8dec.chunk.js": "/React-Port/static/js/787.510e8dec.chunk.js",
     "static/media/trail-finder.jpg": "/React-Port/static/media/trail-finder.f3cf02354cce9ddd9d19.jpg",
+    "static/media/weather.png": "/React-Port/static/media/weather.06e7a05665a238fd46e3.png",
     "static/media/pokedex.png": "/React-Port/static/media/pokedex.6405f2db28f4dbbc5521.png",
     "static/media/P-8A-drops-Mk54-torpedo-1.jpg": "/React-Port/static/media/P-8A-drops-Mk54-torpedo-1.286bfcd6045d4958a987.jpg",
     "static/media/Steven_Seney_Resume.doc": "/React-Port/static/media/Steven_Seney_Resume.2dfc4184bc9a4f0d86ec.doc",
     "static/media/avatar.jpg": "/React-Port/static/media/avatar.cd116d6ba45d0c91df65.jpg",
     "index.html": "/React-Port/index.html",
-    "main.f725e83d.css.map": "/React-Port/static/css/main.f725e83d.css.map",
-    "main.8f6d5bc8.js.map": "/React-Port/static/js/main.8f6d5bc8.js.map",
+    "main.32ac82c3.css.map": "/React-Port/static/css/main.32ac82c3.css.map",
+    "main.ab9f713a.js.map": "/React-Port/static/js/main.ab9f713a.js.map",
     "787.510e8dec.chunk.js.map": "/React-Port/static/js/787.510e8dec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f725e83d.css",
-    "static/js/main.8f6d5bc8.js"
+    "static/css/main.32ac82c3.css",
+    "static/js/main.ab9f713a.js"
   ]
 }

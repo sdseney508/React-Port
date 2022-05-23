@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
   background: rgb(0,15,113);
   /* background: linear-gradient(180deg, rgba(0,15,113,0.9429972672662815) 0%, rgba(11,13,172,1) 100%);  */
-  color: lightgray;
+  color: white;
 }
 
 h1 {
@@ -76,28 +76,6 @@ nav a:hover .link-text{
   display: inline;
   color: yellow;
 }
-/* nav a:hover::after{
-  content: "Home";
-  color: yellow;
-} */
-
-.parent-image{
-  position: relative;
-  width: 100%;
-  height: auto;
-  border-radius: 2rem;
-}
-
-
-.child-image{
-  /* position: relative; */
-  width: 10rem;
-  height: auto;
-  border-radius: 2rem;
-  /* z-index: 2;
-  bottom: 30%;
-  left: 0; */
-}
 
 .centered{
   display: block;
@@ -110,28 +88,10 @@ nav a:hover .link-text{
   opacity: 0.3;
 }
 
-/*for the secondary projects section*/
-.subprojects{
-  width: auto;
-  flex-direction: column; 
+.project-card-view {
+  box-shadow: 5px 10px black;
 }
 
-/*for the secondary project images and links*/
-.secondprojects {
-  border: 2px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 85%;
-}
-
-.secondprojects:hover {
-  opacity: 0.3;
-}
-
-.link {
-  
-}
 
 .italics {
   font-style: italic;

@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { ImStackoverflow } from "react-icons/im";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ subject: '', message: '' });
@@ -18,7 +21,7 @@ const Contact = () => {
     }
   };
   return (
-    <section>
+    <Container>
       <Row>
         <Col>
           <form className="" id="contact-form" onSubmit={handleSubmit}>
@@ -79,8 +82,7 @@ const Contact = () => {
             </a>
         </Col>
       </Row>
-
-    </section>
+    </Container>
   );
 };
 
